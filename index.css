@@ -1,0 +1,105 @@
+.text-msg{
+	background-color: lightblue;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	float:left;
+}
+
+.offset-6 > .text-msg{
+	float: right;
+}
+.msg-div{
+	padding: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .chat-window, .chat-window div{
+        visibility: hidden;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    @media all and (orientation:portrait) { 
+    	#portrait{
+    		height: 85vh;
+    	}
+ 	}
+ 	@media all and (orientation:landscape) { 
+ 		 #portrait{
+    		height: 64vh;
+    	}
+        #resize{
+    height: 80%;
+}
+
+#resize2{
+    height: 20%;
+}
+ 	}
+}
+
+.custom-file-label.selected:lang(en)::after {
+  content: "" !important;
+}
+    .chatbox{
+        height: 100%;
+    }
+
+.badge-secondary{
+    background-color: white;
+    color: grey;
+}
+
+.badge-not{
+    background-color: lightblue;
+    border-radius: 50px;
+    color: white;
+    margin: 2px;
+}
+/*.chatboxh,.chatboxh div{
+	height: 100%;
+}
+.chatwindowh,.chatwindowh div,img{
+	height: 100%;
+}
+*/
+.btn-info{
+    border-radius: 50px;
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.resize{
+    height: 90%;
+}
+
+.resize2{
+    height: 10%;
+}
+
+.portrait{
+    		height: 85vh;
+    	}
+
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
+.round {
+    border-radius: 50%;
+    border-color: lightblue;
+    border-style: dotted;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+

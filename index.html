@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+				<div class="container-fluid" style="height:100vh;overflow-y: hidden;">
+					<div class="row no-gutters" style="background-color: lightblue">
+						<div class="col-12 col-lg-4 chatboxh" id="chatboxh">
+							 <div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 btn" data-toggle="modal" data-target="#exampleModal">
+							    			<img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;" >
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px;">
+											<div class="dropdown dropleft" style="float: right;">
+											  <button class="btn btn-info" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images\menu1.png"></button>
+											  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+											    <a class="dropdown-item btn" data-toggle="modal" data-target="#exampleModal">Change Profile Pic</a>
+											    <a class="dropdown-item" href="#">version</a>
+											    <a class="dropdown-item" href="#">About</a>
+											  </div>
+											</div>
+										</div>
+							    	</div>
+							    </div>
+						</div>
+						<div class="col-0 col-lg-8 chat-window" id="chatwindowh">
+							<div class="collapse" id="icoh">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/messenger1.png" alt="self" class="img-fluid" style="border-radius: 50%;">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px;">
+											<h2 class="card-title" style="margin:6px 0px 6px 0px;color:white;font-family: 'Comic Sans MS';font-weight: bold;">&nbsp *LetsCha...APP </h2>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="megh">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/meg.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Megha Tyagi </h6><span class="badge badge-secondary" style="background-color: lightblue;">last seen 10:30 PM</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="ruchh">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/ruh.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Ruchita </h6><span class="badge badge-secondary" style="background-color: lightblue;">Online</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="maah">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/mum.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Maa </h6><span class="badge badge-secondary" style="background-color: lightblue;">last seen 09:00 PM</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="trah">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/travel.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Travel </h6><span class="badge badge-secondary" style="background-color: lightblue;">Deepak, Aditya, +91 29001901901, +91 7091982378</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="famh">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/fam.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">✌🏼Family group🤗 </h6><span class="badge badge-secondary" style="background-color: lightblue;">Maa, Shalu, +91 7829902092, +91 8382901983, +91 8393029848, +91 9028902786</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="innoh">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/inno.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Innova Group </h6><span class="badge badge-secondary" style="background-color: lightblue;">Raj, Aditya, +91 7829902092, +91 8382901983, +91 8393029848, +91 9028902786</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="eeh">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">NH_211_Elegant Elite </h6><span class="badge badge-secondary" style="background-color: lightblue;">Kunal, Inayat, Gangu</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+							<div class="collapse" id="trumh">
+								<div class="container-fluid">
+							    	<div class="row no-gutters" style="padding:10px">
+							    		<div class="col-2 col-lg-1">
+							    			<img src="images/trump.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-8 col-lg-10">
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Trump Tower </h6><span class="badge badge-secondary" style="background-color: lightblue;">Prem, Gupta, Subhash, Sharat</span>
+							    		</div>
+							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
+											<a href="index.html" class="" style="height: 100%"></a>
+										</div>
+							    	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row no-gutters portrait" id="portrait">
+						<div class="col-12 col-lg-4 chatbox" style="overflow-y: scroll;" id="chatbox">
+							
+							<div class="list-group">
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#megha" role="button" aria-expanded="false" aria-controls="megha" id="megc">
+							    <div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/meg.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%;">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">Megha tyagi <span class="badge badge-secondary" style="float: right;">10:30 PM</span></h6>
+											<small>With supporting </small><span class="badge badge-not" id="badgem" style="float: right;">1</span>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#ruchita" role="button" aria-expanded="false" aria-controls="ruchita" id="ruchc">
+							  	<div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/ruh.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">Ruchita<span class="badge badge-secondary" style="float: right;">10:17 PM</span></h6>
+											<small>With supporting </small>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#maa" role="button" aria-expanded="false" aria-controls="maa" id="maac">
+							  	<div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/mum.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">Maa<span class="badge badge-secondary" style="float: right;">09:20 PM</span></h6>
+											<small>With supporting </small>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#travel" role="button" aria-expanded="false" aria-controls="travel" id="trac">
+							  	<div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/travel.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">Travel<span class="badge badge-secondary" style="float: right;">12:00 AM</span></h6>
+											<small>With supporting </small>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#family" role="button" aria-expanded="false" aria-controls="family" id="famc">
+							  	<div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/fam.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">✌🏼Family group🤗<span class="badge badge-secondary" style="float: right;">11:00 AM</span></h6>
+											<small>With supporting </small><span class="badge badge-not" id="badgef" style="float: right;">12</span>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#innova" role="button" aria-expanded="false" aria-controls="innova" id="innoc">
+							    <div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/inno.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">Innova Group<span class="badge badge-secondary" style="float: right;">01:20 AM</span></h6>
+											<small>With supporting </small>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#ee" role="button" aria-expanded="false" aria-controls="ee" id="eec">
+							  	<div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/meg.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">NH_211_Elegant Elite<span class="badge badge-secondary" style="float: right;">Yesterday</span></h6>
+											<small>With supporting </small>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							  <a class="list-group-item list-group-item-action btn btn-primary" style="padding-left: 0;padding-right: 0" data-toggle="collapse" href="#trump" role="button" aria-expanded="false" aria-controls="trump" id="trumc">
+							  	<div class="container-fluid">
+							    	<div class="row no-gutters" style="">
+							    		<div class="col-2">
+							    			<img src="images/trump.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    		</div>
+							    		<div class="col-10" style="padding-left: 10px">
+											<h6 class="card-title">TRUMP TOWER<span class="badge badge-secondary" style="float: right;">Sunday</span></h6>
+											<small>With supporting </small><span class="badge badge-not" id="badget" style="float: right;">10</span>
+										</div>
+							    	</div>
+							    </div>
+							  </a>
+							</div>
+						</div>
+						<div class="col-0 col-lg-8 chat-window" style="background-image: url('images/polk.png');height: 100%;" id="chatwindow">
+							<div class="collapse" id="brand">
+								<div class="container" style="height: 70vh">
+									<div class="row justify-content-center" style="height: 70%;">
+										<div class="col-5" style="margin-top:20px;border-radius: 50px;">
+							    			<img src="images/messenger2.png" alt="self" class="img-fluid" style="border-radius: 50%;height: 100%;background-color: lightblue;">
+							    		</div>
+									</div>
+									<div class="row justify-content-center">
+										<div class="col-8">
+							    			<h1 class="card-title" style="margin:6px auto 6px auto;color:skyblue;font-family: 'Comic Sans MS';font-weight: bold;font-size: 60px;text-align: center;">*LetsCh...APP </h1>
+							    			<span style="color:skyblue;font-family: 'Comic Sans MS';"><h6 style="text-align: center;">allows you to instantly connect with your friends.</h6></span>
+							    		</div>
+									</div>
+								</div>
+							</div>
+							<div class="container-fluid" style="height: 100%;padding: 0;">
+								<div class="row no-gutters resize" id="resize" style="overflow-y: scroll;">
+										<div class="col-12">
+										<div class="collapse" id="megha">
+										    <div class="container" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+										    	</div>
+										    </div>
+										</div>
+										<div class="collapse" id="ruchita">
+										    <div class="container-fluid" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div" >
+										    			<span class="border border-light text-msg">
+										    				Okay
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Toh tujhe tension ho ri hai?Toh tujhe tension ho ri hai?Toh tujhe tension ho ri hai?
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				nhi...re...bade wali didi ke yha gai hai...waha chill hai sab
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+										    	</div>
+										    </div>
+										</div>
+										<div class="collapse" id="maa">
+										    <div class="container" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+										    	</div>
+										    </div>
+										</div>
+										<div class="collapse" id="travel">
+										    <div class="container" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+										    	</div>
+										    </div>
+										</div>
+										<div class="collapse" id="family">
+										    <div class="container" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+										    	</div>
+										    </div>
+										</div>
+										<div class="collapse" id="innova">
+										    <div class="container" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+										    	</div>
+										    </div>
+										</div>
+										<div class="collapse" id="ee">
+										    <div class="container" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+										    	</div>
+										    </div>
+										</div>
+										<div class="collapse" id="trump">
+										    <div class="container" >
+										    	<div class="row" style="">
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Hi hih
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col-6 offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Hello!
+										    			</span>
+													</div>
+										    	</div>
+										    </div>
+										</div>
+									</div>
+								</div>
+								<div class="row no-gutters resize2" id="resize2" style="background-color: white">
+									<div class="col-2 col-lg-1 btn" >
+										<img src="images/emoticon.png" alt="self" class="img-fluid" style="border-radius: 50%;height: 100%;" >
+									</div>
+									<div class="col-8 col-lg-10" >
+										<input class="form-control" style="height:100%;border-color: white;border:none;" type="text" placeholder="Type a message..">
+										
+									</div>
+									<div class="col-2 col-lg-1 btn" >
+										<img src="images/send.png" alt="self" class="img-fluid" style="border-radius: 50%;height: 100%;" >
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Display Picture</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;max-height: 200px;max-width: 200px" >
+      </div>
+      <div class="modal-footer">
+      	<div class="custom-file">
+  			<input type="file" class="custom-file-input" id="customFile" aria-describedby="fileHelp">
+  			<label class="custom-file-label" for="customFile" style="display: inline-block;overflow: hidden;">Choose a Picture</label>
+		</div>
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script type="text/javascript" src="index.js"></script>
+		
+</body>
+</html>
