@@ -13,13 +13,13 @@
 							 <div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 btn" data-toggle="modal" data-target="#exampleModal">
-							    			<img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;" >
+							    			<img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;" id="imgself">
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px;">
 											<div class="dropdown dropleft" style="float: right;">
 											  <button class="btn btn-info" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images\menu1.png"></button>
-											  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-											    <a class="dropdown-item btn-info" data-toggle="modal" data-target="#exampleModal">Change Profile Pic</a>
+											  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="height: auto;">
+											    <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal">Change Profile Pic</a>
 											    <a class="dropdown-item" href="#">version</a>
 											    <a class="dropdown-item" href="#">About</a>
 											  </div>
@@ -45,7 +45,7 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/meg.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;">
+							    			<img src="images/meg.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;" id="imgmeg">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
 							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Megha Tyagi </h6><span class="badge badge-secondary" style="background-color: lightblue;">last seen 10:30 PM</span>
@@ -60,7 +60,7 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/ruh.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/ruh.jpeg" alt="self" class="img-fluid" style="border-radius: 50%" id="imgruh">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
 							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Ruchita </h6><span class="badge badge-secondary" style="background-color: lightblue;">Online</span>
@@ -75,7 +75,7 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/mum.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/mum.jpeg" alt="self" class="img-fluid" style="border-radius: 50%" id="imgmaa">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
 							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Maa </h6><span class="badge badge-secondary" style="background-color: lightblue;">last seen 09:00 PM</span>
@@ -90,10 +90,10 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/travel.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/travel.jpeg" alt="self" class="img-fluid" style="border-radius: 50%" id="imgtra">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
-							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Travel </h6><span class="badge badge-secondary" style="background-color: lightblue;">Deepak, Aditya, +91 29001901901, +91 7091982378</span>
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Travel </h6><span class="badge badge-secondary" style="background-color: lightblue;overflow: hidden;width: 100%;text-align: left">Deepak, Aditya, +91 29001901901, +91 7091982378</span>
 							    		</div>
 							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
 											<a href="index.html" class="" style="height: 100%"></a>
@@ -105,10 +105,10 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/fam.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/fam.jpeg" alt="self" class="img-fluid" style="border-radius: 50%" id="imgfam">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
-							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">✌🏼Family group🤗 </h6><span class="badge badge-secondary" style="background-color: lightblue;">Maa, Shalu, +91 7829902092, +91 8382901983, +91 8393029848, +91 9028902786</span>
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">✌🏼Family group🤗 </h6><span class="badge badge-secondary" style="background-color: lightblue;overflow: hidden;width: 100%;text-align: left">Maa, Shalu, +91 7829902092, +91 8382901983, +91 8393029848, +91 9028902786</span>
 							    		</div>
 							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
 											<a href="index.html" class="" style="height: 100%"></a>
@@ -120,10 +120,10 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/inno.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/inno.jpeg" alt="self" class="img-fluid" style="border-radius: 50%" id="imginn">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
-							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Innova Group </h6><span class="badge badge-secondary" style="background-color: lightblue;">Raj, Aditya, +91 7829902092, +91 8382901983, +91 8393029848, +91 9028902786</span>
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Innova Group </h6><span class="badge badge-secondary" style="background-color: lightblue;overflow: hidden;width: 100%;text-align: left">Raj, Aditya, +91 7829902092, +91 8382901983, +91 8393029848, +91 9028902786</span>
 							    		</div>
 							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
 											<a href="index.html" class="" style="height: 100%"></a>
@@ -135,10 +135,10 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/ee.jpeg" alt="self" class="img-fluid" style="border-radius: 50%" id="imgee">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
-							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">NH_211_Elegant Elite </h6><span class="badge badge-secondary" style="background-color: lightblue;">Kunal, Inayat, Gangu</span>
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">NH_211_Elegant Elite </h6><span class="badge badge-secondary" style="background-color: lightblue;overflow: hidden;width: 100%;text-align: left">Kunal, Inayat, Gangu</span>
 							    		</div>
 							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
 											<a href="index.html" class="" style="height: 100%"></a>
@@ -150,10 +150,10 @@
 								<div class="container-fluid">
 							    	<div class="row no-gutters" style="padding:10px">
 							    		<div class="col-2 col-lg-1">
-							    			<img src="images/trump.jpeg" alt="self" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/trump.jpeg" alt="self" class="img-fluid" style="border-radius: 50%" id="imgtru">
 							    		</div>
 							    		<div class="col-8 col-lg-10">
-							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Trump Tower </h6><span class="badge badge-secondary" style="background-color: lightblue;">Prem, Gupta, Subhash, Sharat</span>
+							    			<h6 class="card-title" style="margin:5px 0px 0px 5px;">Trump Tower </h6><span class="badge badge-secondary" style="background-color: lightblue;overflow: hidden;width: 100%;text-align: left">Prem, Gupta, Subhash, Sharat</span>
 							    		</div>
 							    		<div class="col-2 col-lg-1" style="padding-left: 10px;background-image: url('images/back.png'); background: cover; background-repeat: no-repeat;">
 											<a href="index.html" class="" style="height: 100%"></a>
@@ -175,7 +175,7 @@
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">Megha tyagi <span class="badge badge-secondary" style="float: right;">10:30 PM</span></h6>
-											<small>With supporting </small><span class="badge badge-not" id="badgem" style="float: right;">1</span>
+											<small>Call Me </small><span class="badge badge-not" id="badgem" style="float: right;">1</span>
 										</div>
 							    	</div>
 							    </div>
@@ -188,7 +188,7 @@
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">Ruchita<span class="badge badge-secondary" style="float: right;">10:17 PM</span></h6>
-											<small>With supporting </small>
+											<small>Ho gaya tera </small>
 										</div>
 							    	</div>
 							    </div>
@@ -201,7 +201,7 @@
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">Maa<span class="badge badge-secondary" style="float: right;">09:20 PM</span></h6>
-											<small>With supporting </small>
+											<small>Khana Kha lia? </small>
 										</div>
 							    	</div>
 							    </div>
@@ -214,7 +214,7 @@
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">Travel<span class="badge badge-secondary" style="float: right;">12:00 AM</span></h6>
-											<small>With supporting </small>
+											<small>What is the status now? </small>
 										</div>
 							    	</div>
 							    </div>
@@ -227,7 +227,7 @@
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">✌🏼Family group🤗<span class="badge badge-secondary" style="float: right;">11:00 AM</span></h6>
-											<small>With supporting </small><span class="badge badge-not" id="badgef" style="float: right;">12</span>
+											<small>Ye to chalta rehta hai.. </small><span class="badge badge-not" id="badgef" style="float: right;">12</span>
 										</div>
 							    	</div>
 							    </div>
@@ -240,7 +240,7 @@
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">Innova Group<span class="badge badge-secondary" style="float: right;">01:20 AM</span></h6>
-											<small>With supporting </small>
+											<small>Dont tell them.... </small>
 										</div>
 							    	</div>
 							    </div>
@@ -249,11 +249,11 @@
 							  	<div class="container-fluid">
 							    	<div class="row no-gutters" style="">
 							    		<div class="col-2">
-							    			<img src="images/meg.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
+							    			<img src="images/ee.jpeg" alt="meg" class="img-fluid" style="border-radius: 50%">
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">NH_211_Elegant Elite<span class="badge badge-secondary" style="float: right;">Yesterday</span></h6>
-											<small>With supporting </small>
+											<small>Anyone Home? </small>
 										</div>
 							    	</div>
 							    </div>
@@ -266,7 +266,7 @@
 							    		</div>
 							    		<div class="col-10" style="padding-left: 10px">
 											<h6 class="card-title">TRUMP TOWER<span class="badge badge-secondary" style="float: right;">Sunday</span></h6>
-											<small>With supporting </small><span class="badge badge-not" id="badget" style="float: right;">10</span>
+											<small>Aaj ka kya Plan hai? </small><span class="badge badge-not" id="badget" style="float: right;">10</span>
 										</div>
 							    	</div>
 							    </div>
@@ -306,6 +306,12 @@
 										    				Hello!
 										    			</span>
 													</div>
+													<div class="w-100"></div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Call Me
+										    			</span>
+										    		</div>
 										    	</div>
 										    </div>
 										</div>
@@ -338,49 +344,49 @@
 													<div class="w-100"></div>
 													<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Haye
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				Ye kya Hai?
 										    			</span>
 													</div>
 													<div class="w-100"></div>
 													<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Haye Aye haye!!
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				Pagala Gaye ho?
 										    			</span>
 													</div>
 													<div class="w-100"></div>
 													<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				May be, may be not!!
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				Hatt nikal...
 										    			</span>
 													</div>
 													<div class="w-100"></div>
 													<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Aise karega ab tu?
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				Ho gaya tera?
 										    			</span>
 													</div>
 													<div class="w-100"></div>
@@ -392,15 +398,27 @@
 										    	<div class="row" style="">
 										    		<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Kya kar raha tha?
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Office khatam ho gaya?
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				nhi ..Office mai tha...
 										    			</span>
 													</div>
+													<div class="w-100"></div>
+										    		<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Khana kha liya?
+										    			</span>
+										    		</div>
 										    	</div>
 										    </div>
 										</div>
@@ -409,13 +427,13 @@
 										    	<div class="row" style="">
 										    		<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Hi All..
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				What is the status now?
 										    			</span>
 													</div>
 										    	</div>
@@ -426,15 +444,42 @@
 										    	<div class="row" style="">
 										    		<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Hua
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Nhi..
+										    			</span>
+													</div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Kab hoga??
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				No..idea.
 										    			</span>
 													</div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				kch to pata chala hoga?
+										    			</span>
+										    		</div>
+										    		<div class="w-100"></div>
+										    		<div class="col-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				nhi...
+										    			</span>
+													</div>
+													<div class="col-6 msg-div">
+										    			<span class="border border-light text-msg">
+										    				Ye to chalta rehta hai..
+										    			</span>
+										    		</div>
 										    	</div>
 										    </div>
 										</div>
@@ -443,13 +488,13 @@
 										    	<div class="row" style="">
 										    		<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				This group man..
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
 										    		<div class="col offset-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				Dont tell them....
 										    			</span>
 													</div>
 										    	</div>
@@ -460,15 +505,9 @@
 										    	<div class="row" style="">
 										    		<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Anyone Home?
 										    			</span>
 										    		</div>
-										    		<div class="w-100"></div>
-										    		<div class="col offset-6 msg-div" >
-														<span class="border border-light text-msg">
-										    				Hello!
-										    			</span>
-													</div>
 										    	</div>
 										    </div>
 										</div>
@@ -477,13 +516,37 @@
 										    	<div class="row" style="">
 										    		<div class="col-6 msg-div">
 										    			<span class="border border-light text-msg">
-										    				Hi hih
+										    				Scene kya hai..?
 										    			</span>
 										    		</div>
 										    		<div class="w-100"></div>
-										    		<div class="col-6 offset-6 msg-div" >
+										    		<div class="col-6 msg-div" >
 														<span class="border border-light text-msg">
-										    				Hello!
+										    				Scene kya hai.
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+										    		<div class="col-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				bol na phir
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+										    		<div class="col offset-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Scene kya hai.
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+										    		<div class="col-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				batcheet mere bare mai...
+										    			</span>
+													</div>
+													<div class="w-100"></div>
+										    		<div class="col-6 msg-div" >
+														<span class="border border-light text-msg">
+										    				Aaj ka kya Plan hai?
 										    			</span>
 													</div>
 										    	</div>
@@ -493,7 +556,7 @@
 								</div>
 								<div class="row no-gutters resize2" id="resize2" style="background-color: white">
 									<div class="col-2 col-lg-1 btn" >
-										<img src="images/emoticon.png" alt="self" class="img-fluid" style="border-radius: 50%;height: 100%;" >
+										<img src="images/emoticon2.png" alt="self" class="img-fluid" style="border-radius: 50%;height: 100%;" >
 									</div>
 									<div class="col-8 col-lg-10" >
 										<input class="form-control" style="height:100%;border-color: white;border:none;" type="text" placeholder="Type a message..">
@@ -519,7 +582,14 @@
         </button>
       </div>
       <div class="modal-body">
-        <img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;max-height: 200px;max-width: 200px" >
+      	<div style="display: flex;flex-direction: row;">
+      		<div>
+        		<img src="images/am_it.jpeg" alt="self" class="img-fluid" style="border-radius: 50%;max-height: 200px;max-width: 200px" >
+        	</div>
+        	<div style="font-family: 'Comic Sans MS';margin: 5px;color: grey">
+        		<h2>Lets Ch..APP</h2><br><h1>Amit Tyagi</h1>
+        	</div>
+        </div>
       </div>
       <div class="modal-footer">
       	<div class="custom-file">

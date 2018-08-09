@@ -21,10 +21,13 @@
         padding: 0px;
         margin: 0px;
     }
-    .chatboxh, .chatboxh div,img{
+    .chatboxh, .chatboxh div,#imgself{
         height: 100%;
     }
 
+    #chatwindowh, #chatwindowh div,#imgmeg,#imgruh,#imgmaa,#imgtra,#imgfam,#imginn,#imgee,#imgtru{
+        height: 100%;
+    }
 
     @media all and (orientation:portrait) { 
     	#portrait{
@@ -35,6 +38,7 @@
         }
  	}
  	@media all and (orientation:landscape) {
+        
  		 #portrait{
     		height: 64vh;
     	}
