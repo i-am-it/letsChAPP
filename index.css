@@ -15,6 +15,20 @@
 }
 
 @media only screen and (max-width: 992px) {
+
+    .modal-body  img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .modal-body  h2{
+        font-size: 20px
+    }
+
+    .modal-body  h1{
+        font-size: 22px
+    }
+
     .chat-window, .chat-window div{
         visibility: hidden;
         height: 0px;
