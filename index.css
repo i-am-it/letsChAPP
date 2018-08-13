@@ -14,11 +14,16 @@
 	padding: 5px;
 }
 
+.modal-body  img{
+        max-height: 200px;
+        max-width: 200px;
+    }
+
 @media only screen and (max-width: 992px) {
 
     .modal-body  img{
-        height: 100px;
-        width: 100px;
+        max-height: 100px;
+        max-width: 100px;
     }
 
     .modal-body  h2{
